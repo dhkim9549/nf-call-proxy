@@ -1,0 +1,26 @@
+== What You Will Build
+
+You will build a proxy server to call NF server.
+This will bypass a CORS error in browswers.
+
+== What You Need
+
+Edit spring-boot configuration file:
+
+----
+key-rest-api/complete/src/main/resources/application.properties
+----
+
+----
+mvn clean package
+----
+
+----
+java -jar proxy-rest-api-complete-0.0.1-SNAPSHOT.jar
+----
+
+== See Also
+
+See the following guide for reference:
+
+* https://github.com/spring-guides/gs-rest-service[Building a RESTful Web Service]
