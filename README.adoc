@@ -8,7 +8,7 @@ This will bypass a CORS error in browswers.
 Edit spring-boot configuration file:
 
 ----
-key-rest-api/complete/src/main/resources/application.properties
+nf-call-proxy/complete/src/main/resources/application.properties
 ----
 
 ----
@@ -16,7 +16,7 @@ mvn clean package
 ----
 
 ----
-java -jar proxy-rest-api-complete-0.0.1-SNAPSHOT.jar
+java -jar target/nf-call-proxy-complete-0.0.1-SNAPSHOT.jar
 ----
 
 == See Also
