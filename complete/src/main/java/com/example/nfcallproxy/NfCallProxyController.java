@@ -25,7 +25,7 @@ import java.util.HashMap;
 public class NfCallProxyController {
 
     private static final Logger log = LoggerFactory.getLogger(NfCallProxyController.class);
-    private static final String nfUrl = "https://openapis-loan-dev.pay.naver.com/re-lease";
+    private static final String nfUrl = "https://openapis-dev.pay.naver.com/re-lease";
 
     private HttpHeaders makeHeaders() {
 
